@@ -62,7 +62,7 @@ void add_curve( struct matrix *points,
 			double t;
 			double ptx0 = x->m[3][0];
 			double pty0 = y->m[3][0];
-			
+
 			for (t = step; t<1+step; t+=step){
 
 				double ptx1 = (x->m[0][0] * pow(t, 3)) + (x->m[1][0] * pow(t, 2)) + (x->m[2][0] * t) + x->m[3][0];
